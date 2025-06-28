@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5D Master - Premium Cleaning Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Navigation -->
+    <nav>
+        <div class="logo">
+            <img src="logo.jpg" alt="5D Master Logo">
+            <span>5D MASTER</span>
+        </div>
+        <div class="nav-links">
+            <a href="#" class="active">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Industrial Strength Cleaning Solutions</h1>
+            <p>Premium quality at factory prices. ISO certified products for all your cleaning needs.</p>
+            <button class="cta-button">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="categories">
+        <h2>Our Product Range</h2>
+        <div class="category-tabs">
+            <button class="tab active" data-category="all">All Products</button>
+            <button class="tab" data-category="dishwash">Dish Wash</button>
+            <button class="tab" data-category="toilet">Toilet Cleaners</button>
+            <button class="tab" data-category="handwash">Hand Wash</button>
+            <button class="tab" data-category="floor">Floor Cleaners</button>
+        </div>
+    </section>
+
+    <!-- Product Grid -->
+    <main class="product-grid">
+        <!-- Products will be inserted here by JavaScript -->
+    </main>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Order</h3>
+            <button class="close-cart">&times;</button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will be inserted here -->
+        </div>
+        <div class="cart-summary">
+            <div class="summary-row">
+                <span>Subtotal</span>
+                <span class="subtotal">₹0</span>
+            </div>
+            <div class="summary-row">
+                <span>Delivery</span>
+                <span class="delivery">₹0</span>
+            </div>
+            <div class="summary-row total">
+                <span>Total</span>
+                <span class="total-amount">₹0</span>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+    <div class="cart-overlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
